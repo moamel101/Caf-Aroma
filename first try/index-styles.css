@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333; /* Dark background color */
+    color: white; /* Light text color for contrast */
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-name {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a {
+    color: white; /* Make the text color white for contrast */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background: url('cafe-hero.jpg') no-repeat center center/cover; /* Add a background image */
+    color: rgb(201, 25, 25);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff5722; /* Vibrant call-to-action color */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+.testimonials-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.testimonials-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}

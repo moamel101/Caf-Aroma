@@ -1,0 +1,105 @@
+
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Style for the header section */
+        header {
+            background-color: #333; /* Dark background for the header */
+            color: white; /* Light text color for contrast */
+            padding: 20px 0;
+        }
+
+        /* Container class to center content and set maximum width */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex; /* Flexbox to arrange items */
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Styling for the shop name */
+        .shop-name {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Styling for the navigation bar */
+        .nav-bar ul {
+            list-style: none; /* Remove default bullet points */
+            margin: 0;
+            padding: 0;
+            display: flex; /* Flexbox to arrange menu items horizontally */
+            gap: 20px; /* Space between menu items */
+        }
+
+        /* Styling for the links in the navigation bar */
+        .nav-bar a {
+            color: white; /* White text color */
+            text-decoration: none; /* Remove underlines */
+            font-size: 18px;
+        }
+
+        /* Hover effect for the navigation links */
+        .nav-bar a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+
+        /* Styling for the contact section */
+        .contact-section {
+            background-color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        /* Styling for the heading in the contact section */
+        .contact-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the contact details */
+        .contact-details {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        /* Styling for contact info blocks */
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the contact info headings */
+        .contact-info h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for the footer section */
+        footer {
+            background-color: #333; /* Dark background color */
+            color: white; /* Light text color for contrast */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Styling for social media icons */
+        .footer-icons img {
+            width: 30px; /* Set size of social media icons */
+            margin: 0 10px;
+        }
+
+        /* Styling for copyright text */
+        .footer-text {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+   

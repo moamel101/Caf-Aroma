@@ -1,0 +1,148 @@
+
+    /* Reset default margin and padding, set font for the whole page */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Style for the header section */
+    header {
+        background-color: #333; /* Dark background for the header */
+        color: white; /* Light text color for contrast */
+        padding: 20px 0;
+    }
+
+    /* Container class to center content and set maximum width */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex; /* Flexbox to arrange items */
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* Styling for the shop name */
+    .shop-name {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    /* Styling for the navigation bar */
+    .nav-bar ul {
+        list-style: none; /* Remove default bullet points */
+        margin: 0;
+        padding: 0;
+        display: flex; /* Flexbox to arrange menu items horizontally */
+        gap: 20px; /* Space between menu items */
+    }
+
+    /* Styling for the links in the navigation bar */
+    .nav-bar a {
+        color: white; /* White text color */
+        text-decoration: none; /* Remove underlines */
+        font-size: 18px;
+    }
+
+    /* Hover effect for the navigation links */
+    .nav-bar a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+
+    /* Styling for the about section */
+    .about-section {
+        background-color: white;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    /* Styling for the headings in the about section */
+    .about-section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    /* Styling for the paragraphs in the about section */
+    .about-section p {
+        font-size: 18px;
+        margin-bottom: 40px;
+        max-width: 800px; /* Limit the width of text */
+        margin: 0 auto 40px;
+    }
+
+    /* Styling for images in the about section */
+    .about-section img {
+        max-width: 100%; /* Make image responsive */
+        height: auto;
+        border-radius: 8px; /* Rounded corners for the image */
+        margin-bottom: 20px;
+    }
+
+    /* Styling for the values section */
+    .values-section {
+        padding: 50px 20px;
+        background-color: #eaeaea;
+        text-align: center;
+    }
+
+    /* Styling for the heading in the values section */
+    .values-section h3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    /* Flexbox for arranging value items */
+    .values-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; /* Wrap items to new lines if needed */
+    }
+
+    /* Styling for individual value items */
+    .value-item {
+        max-width: 300px;
+        margin: 20px;
+    }
+
+    /* Styling for headings within each value item */
+    .value-item h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    /* Styling for paragraphs within each value item */
+    .value-item p {
+        font-size: 16px;
+    }
+
+    /* Styling for the footer */
+    footer {
+        background-color: #333; /* Dark background color */
+        color: white; /* Light text color for contrast */
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    /* Flexbox for arranging social media icons */
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 15px; /* Space between icons */
+        margin-bottom: 10px;
+    }
+
+    /* Styling for social media icons */
+    .social-media img {
+        width: 24px; /* Set a consistent size for icons */
+        height: 24px;
+        vertical-align: middle; /* Align icons with text */
+    }
+
+    /* Styling for footer text */
+    .footer-text {
+        font-size: 14px;
+    }

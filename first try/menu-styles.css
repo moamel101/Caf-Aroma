@@ -1,0 +1,122 @@
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styling for the header section */
+header {
+    background-color: #333; /* Dark background for the header */
+    color: white; /* Light text color for contrast */
+    padding: 20px 0;
+}
+
+/* Container to center content and set max width */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the shop name */
+.shop-name {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Styling for the navigation bar */
+.nav-bar ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Space between nav items */
+}
+
+/* Styling for the navigation links */
+.nav-bar a {
+    color: white; /* White text for contrast */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hover effect for navigation links */
+.nav-bar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Styling for the menu section */
+.menu-section {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Styling for the heading in the menu section */
+.menu-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the menu categories */
+.menu-category {
+    margin-bottom: 40px;
+}
+
+/* Styling for the menu items */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* Styling for the menu item name */
+.menu-item-name {
+    font-size: 18px;
+}
+
+/* Styling for the menu item price */
+.menu-item-price {
+    font-size: 18px;
+}
+
+/* Styling for the footer section */
+footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* Light text color for contrast */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Styling for social media links */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px; /* Size of social media icons */
+    height: 24px;
+}
+
+/* Styling for copyright text */
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
